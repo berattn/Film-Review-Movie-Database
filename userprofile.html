@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+<head>
+	<title>Kullanıcı profili</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="profile" href="#">
+
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone-no">
+
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div id="preloader">
+		<img class="logo" src="images/logo1.png" alt="" width="119" height="58">
+		<div id="status">
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<div class="login-wrapper" id="login-content">
+		<div class="login-content">
+			<a href="#" class="close">x</a>
+			<h3>Giriş</h3>
+			<form method="post" action="#">
+				<div class="row">
+					 <label for="username">
+						Kullanıcı adı:
+						<input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+					</label>
+				</div>
+			   
+				<div class="row">
+					<label for="password">
+						Şifre:
+						<input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				<div class="row">
+					<div class="remember">
+						<div>
+							<input type="checkbox" name="remember" value="Remember me"><span>Beni hatırla</span>
+						</div>
+						<a href="#">Şifrenizi mi unuttunuz?</a>
+					</div>
+				</div>
+			   <div class="row">
+					<button type="submit">Giriş</button>
+			   </div>
+			</form>
+			<div class="row">
+				<p>Sosyal hesaptan bağlan</p>
+				<div class="social-btn-2">
+					<a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+					<a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="login-wrapper"  id="signup-content">
+		<div class="login-content">
+			<a href="#" class="close">x</a>
+			<h3>Kaydol</h3>
+			<form method="post" action="#">
+				<div class="row">
+					 <label for="username-2">
+						Kullanıcı adı:
+						<input type="text" name="username" id="username-2" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+					</label>
+				</div>
+			   
+				<div class="row">
+					<label for="email-2">
+						E-mail:
+						<input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				 <div class="row">
+					<label for="password-2">
+						Şifre:
+						<input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				 <div class="row">
+					<label for="repassword-2">
+						Şifrenizi bir daha giriniz:
+						<input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+			   <div class="row">
+				 <button type="submit">Kaydol</button>
+			   </div>
+			</form>
+		</div>
+	</div>
+	<header class="ht-header full-width-hd">
+			<div class="row">
+				<nav id="mainNav" class="navbar navbar-default navbar-custom">
+					<div class="navbar-header logo">
+						<div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<div id="nav-icon1">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<a href="index-2.html"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
+					</div>
+					<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav flex-child-menu menu-left">
+							<li class="hidden">
+								<a href="#page-top"></a>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Ana sayfa <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="index-2.html">Ana sayfa1</a></li>
+									<li><a href="homev2.html">Ana sayfa2</a></li>
+									<li><a href="homev3.html">Ana sayfa3</a></li>
+								</ul>
+							</li>	
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Filmler<i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Film Skalası<i class="ion-ios-arrow-forward"></i></a>
+										<ul class="dropdown-menu level2">
+											<li><a href="moviegrid.html">Film Skalası</a></li>
+											<li><a href="moviegridfw.html">Film Skalası full ekran</a></li>
+										</ul>
+									</li>			
+									<li><a href="movielist.html">Film listesi</a></li>
+									<li><a href="moviesingle.html">Tek filmler</a></li>
+									<li class="it-last"><a href="seriessingle.html">Sıralı Filmler</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Ünlüler <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="celebritygrid01.html">Tek liste ünlüler 1</a></li>
+									<li><a href="celebritygrid02.html">Tek liste ünlüler 2 </a></li>
+									<li><a href="celebritylist.html">Tam liste ünlüler</a></li>
+									<li class="it-last"><a href="celebritysingle.html">Ünlü Profili</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Haberler <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="bloglist.html">blog List</a></li>
+									<li><a href="bloggrid.html">blog Grid</a></li>
+									<li class="it-last"><a href="blogdetail.html">blog Detail</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Topluluk <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="bloglist.html">blog Listesi</a></li>
+									<li><a href="bloggrid.html">blog Grid</a></li>
+									<li class="it-last"><a href="blogdetail.html">blog Detayı</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav flex-child-menu menu-right">
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Diğer <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="landing.html">Gezinti</a></li>
+									<li class="it-last"><a href="comingsoon.html">Yakında...</a></li>
+								</ul>
+							</li>                
+							<li><a href="#">Yardım</a></li>
+							<li class="loginLink"><a href="#">Giriş Yap</a></li>
+							<li class="btn signupLink"><a href="#">Kaydol</a></li>
+						</ul>
+					</div>
+			</nav>
+			</div>
+	    
+	    <div class="top-search">
+	    	<select>
+				<option value="united">TV showları</option>
+				<option value="saab">Diğerleri</option>
+			</select>
+			<input type="text" placeholder="Aramak istediğiniz filmi, diziyi veya ünlüyü giriniz.">
+	    </div>
+	</div>
+</header>
+
+<div class="hero user-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="hero-ct">
+					<h1>Mehmet Gürsoy’un Profili</h1>
+					<ul class="breadcumb">
+						<li class="active"><a href="#">Ana sayfa</a></li>
+						<li> <span class="ion-ios-arrow-right"></span>Profil</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-single">
+	<div class="container">
+		<div class="row ipad-width">
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="user-information">
+					<div class="user-img">
+						<a href="#"><img src="images/uploads/user-img.png" alt=""><br></a>
+						<a href="#" class="redbtn">Avatarı Değiştir</a>
+					</div>
+					<div class="user-fav">
+						<p>Hesap Detayları</p>
+						<ul>
+							<li  class="active"><a href="userprofile.html">Profil</a></li>
+							<li><a href="userfavoritelist.html">Favori Filmler</a></li>
+							<li><a href="userrate.html">Puanlanan Filmler</a></li>
+						</ul>
+					</div>
+					<div class="user-fav">
+						<p>Diğer</p>
+						<ul>
+							<li><a href="#">Şifreyi Değiştir</a></li>
+							<li><a href="#">Çıkış</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-12 col-xs-12">
+				<div class="form-style-1 user-pro" action="#">
+					<form action="#" class="user">
+						<h4>Profile Detayları</h4>
+						<div class="row">
+							<div class="col-md-6 form-it">
+								<label>Kullanıcı Adı</label>
+								<input type="text" placeholder="Mehmet2324">
+							</div>
+							<div class="col-md-6 form-it">
+								<label>E-mail Adresi</label>
+								<input type="text" placeholder="mehmet2324@gmail.com">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 form-it">
+								<label>First Name</label>
+								<input type="text" placeholder="Mehmet ">
+							</div>
+							<div class="col-md-6 form-it">
+								<label>Last Name</label>
+								<input type="text" placeholder="Gürsoy">
+							</div>
+						</div>
+						
+					</form>
+					<form action="#" class="password">
+						<h4>Şifreyi Değiştir</h4>
+						<div class="row">
+							<div class="col-md-6 form-it">
+								<label>Eski Şifre:</label>
+								<input type="text" placeholder="**********">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 form-it">
+								<label>Yeni Şifre:</label>
+								<input type="text" placeholder="***************">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 form-it">
+								<label>Yeni Şifreyi Bir Daha Giriniz:</label>
+								<input type="text" placeholder="*************** ">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-2">
+								<input class="submit" type="submit" value="Değiştir">
+							</div>
+						</div>	
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="ht-footer full-width-ft">
+	<div class="row">
+		<div class="flex-parent-ft">
+			<footer class="ht-footer">
+				<div class="container">
+					<div class="flex-parent-ft">
+						<div class="flex-child-ft item1">
+							 <a href="index-2.html"><img class="logo" src="images/logo1.png" width="100" height="100" alt=""></a>
+							 <p>Merkez Mah. Halkalı Yolu Atlas Sk. No:3 34212 
+								<br>
+								34212 Mahmutbey / İstanbul</p>
+							<p>Bizi arayın : <a href="#">(+90212) 698 45 47 </a></p>
+						</div>
+						<div class="flex-child-ft item2">
+							<h4>Kaynak</h4>
+							<ul>
+								<li><a href="#">Hakkımızda</a></li> 
+								<li><a href="#">BeratMovies</a></li>
+								<li><a href="#">Bize Ulaşın</a></li>
+								<li><a href="#">Forumlar</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Yardım Merkezi</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item3">
+							<h4>Yasalar</h4>
+							<ul>
+								<li><a href="#">Kullanım şartları</a></li> 
+								<li><a href="#">Gizlilik Politikası	</a></li>	
+								<li><a href="#">Güvenlik</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item4">
+							<h4>Hesabım</h4>
+							<ul>
+								<li><a href="#">Hesabım</a></li> 
+								<li><a href="#">İzlediklerim</a></li>	
+								<li><a href="#">Koleksiyonlar</a></li>
+								<li><a href="#">Kullanıcı rehberi</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item5">
+							<h4>Haber Bülteni</h4>
+							<p>Bizden en son haberleri almak için haber bültenimize abone olun .
+							</p>
+							<form action="#">
+								<input type="text" placeholder="Mailnizi giriniz...">
+							</form>
+							<a href="#" class="btn">Şimdi abone ol <i class="ion-ios-arrow-forward"></i></a>
+						</div>
+					</div>
+				</div>
+					<div class="backtotop">
+						<p><a href="#" id="back-to-top"> Yukarı dönüş <i class="ion-ios-arrow-thin-up"></i></a></p>
+					</div>
+				</div>
+			</footer>
+			
+			<script src="js/jquery.js"></script>
+			<script src="js/plugins.js"></script>
+			<script src="js/plugins2.js"></script>
+			<script src="js/custom.js"></script>
+			</body>
+			
+			</html>

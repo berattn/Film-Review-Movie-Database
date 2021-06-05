@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+
+<head>
+	<title>Detaylı Kullanıcı Favorileri</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="profile" href="#">
+
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone-no">
+
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<div id="preloader">
+    <img class="logo" src="images/logo1.png" alt="" width="119" height="58">
+    <div id="status">
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<div class="login-wrapper" id="login-content">
+    <div class="login-content">
+        <a href="#" class="close">x</a>
+        <h3>Giriş</h3>
+        <form method="post" action="#">
+        	<div class="row">
+        		 <label for="username">
+                    Kullanıcı adı:
+                    <input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                </label>
+        	</div>
+           
+            <div class="row">
+            	<label for="password">
+                    Şifre:
+                    <input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+            <div class="row">
+            	<div class="remember">
+					<div>
+						<input type="checkbox" name="remember" value="Remember me"><span>Beni hatırla</span>
+					</div>
+            		<a href="#">Şifrenizi mi unuttunuz?</a>
+            	</div>
+            </div>
+           <div class="row">
+           	 <button type="submit">Giriş</button>
+           </div>
+        </form>
+        <div class="row">
+        	<p>Sosyal hesaptan bağlan</p>
+            <div class="social-btn-2">
+            	<a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+            	<a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login-wrapper"  id="signup-content">
+    <div class="login-content">
+        <a href="#" class="close">x</a>
+        <h3>Kaydol</h3>
+        <form method="post" action="#">
+            <div class="row">
+                 <label for="username-2">
+                    Kullanıcı adı:
+                    <input type="text" name="username" id="username-2" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                </label>
+            </div>
+           
+            <div class="row">
+                <label for="email-2">
+                    E-mail:
+                    <input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+             <div class="row">
+                <label for="password-2">
+                    Şifre:
+                    <input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+             <div class="row">
+                <label for="repassword-2">
+                    Şifrenizi bir daha giriniz:
+                    <input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+           <div class="row">
+             <button type="submit">Kaydol</button>
+           </div>
+        </form>
+    </div>
+</div>
+<header class="ht-header full-width-hd">
+		<div class="row">
+			<nav id="mainNav" class="navbar navbar-default navbar-custom">
+				<div class="navbar-header logo">
+				    <div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					    <span class="sr-only">Toggle navigation</span>
+					    <div id="nav-icon1">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+				    </div>
+				    <a href="index-2.html"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
+			    </div>
+				<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav flex-child-menu menu-left">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Ana Sayfa <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="index-2.html">Ana sayfa1</a></li>
+								<li><a href="homev2.html">Ana sayfa2</a></li>
+								<li><a href="homev3.html">Ana sayfa3</a></li>
+							</ul>
+						</li>	
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Filmler<i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Film Skalası<i class="ion-ios-arrow-forward"></i></a>
+									<ul class="dropdown-menu level2">
+										<li><a href="moviegrid.html">Film Skalası</a></li>
+										<li><a href="moviegridfw.html">Film Skalası full ekran</a></li>
+									</ul>
+								</li>			
+								<li><a href="movielist.html">Film listesi</a></li>
+								<li><a href="moviesingle.html">Tek filmler</a></li>
+								<li class="it-last"><a href="seriessingle.html">Sıralı Filmler</a></li>
+							</ul>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Ünlüler <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="celebritygrid01.html">Tek liste ünlüler 1</a></li>
+								<li><a href="celebritygrid02.html">Tek liste ünlüler 2 </a></li>
+								<li><a href="celebritylist.html">Tam liste ünlüler</a></li>
+								<li class="it-last"><a href="celebritysingle.html">Ünlü Profili</a></li>
+							</ul>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Haberler <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="bloglist.html">blog List</a></li>
+								<li><a href="bloggrid.html">blog Grid</a></li>
+								<li class="it-last"><a href="blogdetail.html">blog Detail</a></li>
+							</ul>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Topluluk <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="bloglist.html">blog Listesi</a></li>
+								<li><a href="bloggrid.html">blog Grid</a></li>
+								<li class="it-last"><a href="blogdetail.html">blog Detayı</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav flex-child-menu menu-right">
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Diğer <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="landing.html">Gezinti</a></li>
+								<li class="it-last"><a href="comingsoon.html">Yakında...</a></li>
+							</ul>
+						</li>                
+						<li><a href="#">Yardım</a></li>
+						<li class="loginLink"><a href="#">Giriş Yap</a></li>
+						<li class="btn signupLink"><a href="#">Kaydol</a></li>
+					</ul>
+				</div>
+	    </nav>
+		</div>
+	
+</header>
+
+	    </nav>
+	    
+
+	</div>
+</header>
+
+<div class="hero user-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="hero-ct">
+					<h1>Mehmet Gürsoy’un Profili</h1>
+					<ul class="breadcumb">
+						<li class="active"><a href="#">Ana Sayfa</a></li>
+						<li> <span class="ion-ios-arrow-right"></span>İncelenen Fİlmler</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-single userfav_list">
+	<div class="container">
+		<div class="row ipad-width2">
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="user-information">
+					<div class="user-img">
+						<a href="#"><img src="images/uploads/user-img.png" alt=""><br></a>
+						<a href="#" class="redbtn">Avatarı Değiştir</a>
+					</div>
+					<div class="user-fav">
+						<p>Hesap Detayları</p>
+						<ul>
+							<li><a href="userprofile.html">Profil</a></li>
+							<li class="active"><a href="userfavoritelist.html">Favori filmler</a></li>
+							<li><a href="userrate.html">Puanlanan Filmler</a></li>
+						</ul>
+					</div>
+					<div class="user-fav">
+						<p>Diğer</p>
+						<ul>
+							<li><a href="#">Şifreyi Değiştir </a></li>
+							<li><a href="#">Çıkış yap</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-12 col-xs-12">
+				<div class="topbar-filter user">
+					<p>Toplam <span>1,608 film</span> bulundu</p>
+					<label>Sıralama Ölçütü:</label>
+					<select>
+						<option value="popularity">Popülerliğe Göre Azalan</option>
+						<option value="popularity">Popülerliğe Göre Artan</option>
+						<option value="rating">Aldıkları Puana Göre Azalan</option>
+						<option value="rating">Aldıkları Puana Göre Artan</option>
+						<option value="date">Eklenme Tarihine Göre Artan </option>
+						<option value="date">Eklenme Tarihine Göre Azalan</option>
+					</select>
+					<a href="userfavoritelist.html" class="list"><i class="ion-ios-list-outline active"></i></a>
+					<a  href="userfavoritegrid.html" class="grid"><i class="ion-grid "></i></a>
+				</div>
+				<div class="flex-wrap-movielist user-fav-list">
+					<div class="movie-item-style-2">
+						<img src="images/uploads/mv1.jpg" alt="">
+						<div class="mv-item-infor">
+							<h6><a href="moviesingle.html">oblivion <span>(2013)</span></a></h6>
+							<p class="rate"><i class="ion-android-star"></i><span>7.0</span> /10</p>
+							<p class="describe">Dünyanın kalan kaynaklarını çıkarmakla görevlendirilen bir gazi, görevi ve kendisi hakkında bildiklerini sorgulamaya başlar.							..</p>
+							<p class="run-time"> Uzunluk: 2s4dk       <span>İzleyici: PG13- </span>    <span>Çıkış Tarihi: 1 May 2015</span></p>
+							<p>Yönetmen: <a href="#">Joseph Kosinski</a></p>
+							<p>Başroller: <a href="#">Tom Cruise,</a> <a href="#">Morgan Freeman,</a> <a href="#">  Olga Kurylenko </a></p>
+						</div>
+					</div>
+					<div class="movie-item-style-2">
+						<img src="images/uploads/mv2.jpg" alt="">
+						<div class="mv-item-infor">
+							<h6><a href="moviesingle.html">into the wild <span>(2007)</span></a></h6>
+							<p class="rate"><i class="ion-android-star"></i><span>7.8</span> /10</p>
+							<p class="describe">Emory Üniversitesi'nin en iyi öğrencisi ve atleti Christopher McCandless mezun olduktan sonra, mülklerini terk eder, 24.000 dolarlık birikim hesabının tamamını hayır kurumlarına bağışlar ve otostopla vahşi doğada yaşamak için Alaska'ya gider. Yol boyunca Christopher, hayatını şekillendiren bir dizi karakterle karşılaşır...</p>
+							<p class="run-time"> Uzunluk: 2s28dk         <span>İzleyici: PG13- </span>        <span>Çıkış Tarihi: 16 Ekim 2007 </span></p>
+							<p>Yönetmen: <a href="#"> Sean Penn,</a>
+							<p>Başroller: <a href="#"> Emile Hirsch,</a> <a href="#">Vince Vaughn,</a> <a href="#">  Catherine Keener</a></p>
+						</div>
+					</div>
+					<div class="movie-item-style-2">
+						<img src="images/uploads/mv3.jpg" alt="">
+						<div class="mv-item-infor">
+							<h6><a href="moviesingle.html">blade runner 2049  <span>(2017)</span></a></h6>
+							<p class="rate"><i class="ion-android-star"></i><span>8.0</span> /10</p>
+							<p class="describe">Genç Blade Runner K'nın uzun süredir saklı bir sırrı keşfetmesi, onu otuz yıldır kayıp olan eski Blade Runner Rick Deckard'ı bulmaya yönlendirir...</p>
+							<p class="run-time"> Uzunluk: 2s44dk    .     <span>İzleyici: PG13- </span>    .     <span>Çıkış Tarihi: 6 Ekim 2017</span></p>
+							<p>Yönetmen: <a href="#">Denis Villeneuve</a></p>
+							<p>Başroller: <a href="#"> Harrison Ford,</a> <a href="#"> Ryan Gosling</a></p>
+						</div>
+					</div>
+					<div class="movie-item-style-2">
+						<img src="images/uploads/mv4.jpg" alt="">
+						<div class="mv-item-infor">
+							<h6><a href="moviesingle.html">Mulholland Drive<span> (2001)  </span></a></h6>
+							<p class="rate"><i class="ion-android-star"></i><span>7.9</span> /10</p>
+							<p class="describe">Dolambaçlı Mulholland Drive'da meydana gelen bir araba kazası bir kadını unutkan hale getirdikten sonra, o ve Hollywood için umut dolu, Los Angeles'ta hayallerin ve gerçekliğin ötesinde kıvrımlı bir macerada ipuçları ve cevaplar arar.
+							</p>
+							<p class="run-time"> Uzunluk: 2h21’    .     <span>İzleyici: 18+ </span>    .     <span>Çıkış Tarihi: 5 Nisan 2001</span></p>
+							<p>Yönetmen: <a href="#"> David Lynch</a></p>
+							<p>Başroller: <a href="#"> Naomi Watts., </a> <a href="#">   Laura Harring,</a><a href="#"> Justin Theroux </a></p>
+						</div>
+					</div>
+					<div class="movie-item-style-2">
+						<img src="images/uploads/mv5.jpg" alt="">
+						<div class="mv-item-infor">
+							<h6><a href="moviesingle.html">skyfall<span> (2012)  </span></a></h6>
+							<p class="rate"><i class="ion-android-star"></i><span>7.7</span> /10</p>
+							<p class="describe">James Bond'un M'ye olan sadakati, geçmişi onu rahatsız etmek için geri geldiğinde test edilir. MI6 saldırıya uğradığında, 007 sonucu ne kadar kişisel olursa olsun tehdidi bulmalı ve yok etmelidir.
+								.</p>
+							<p class="run-time"> Uzunluk: 2s23dk    .     <span>İzleyici: PG13- </span>    .     <span>Çıkış Tarihi: 2 Kasım 2012</span></p>
+							<p>Yönetmen: <a href="#">Sam Mendes</a></p>
+							<p>Başroller: <a href="#"> Daniel Craig,  </a> <a href="#">  Javier Bardem,</a><a href="#"> Naomie Harris</a></p>
+						</div>
+					</div>
+					<div class="topbar-filter">
+						<label> Sayfada:</label>
+						<select>
+							<option value="range">5 film</option>
+							<option value="saab">10 film</option>
+						</select>
+						<div class="pagination2">
+							<span>Sayfa 2 de 1:</span>
+							<a class="active" href="#">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">...</a>
+							<a href="#">78</a>
+							<a href="#">79</a>
+							<a href="#"><i class="ion-arrow-right-b"></i></a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="ht-footer full-width-ft">
+	<div class="row">
+		<div class="flex-parent-ft">
+			<footer class="ht-footer">
+				<div class="container">
+					<div class="flex-parent-ft">
+						<div class="flex-child-ft item1">
+							 <a href="index-2.html"><img class="logo" src="images/logo1.png" width="100" height="100" alt=""></a>
+							 <p>Merkez Mah. Halkalı Yolu Atlas Sk. No:3 34212 
+								<br>
+								34212 Mahmutbey / İstanbul</p>
+							<p>Bizi arayın : <a href="#">(+90212) 698 45 47 </a></p>
+						</div>
+						<div class="flex-child-ft item2">
+							<h4>Kaynak</h4>
+							<ul>
+								<li><a href="#">Hakkımızda</a></li> 
+								<li><a href="#">BeratMovies</a></li>
+								<li><a href="#">Bize Ulaşın</a></li>
+								<li><a href="#">Forumlar</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Yardım Merkezi</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item3">
+							<h4>Yasalar</h4>
+							<ul>
+								<li><a href="#">Kullanım şartları</a></li> 
+								<li><a href="#">Gizlilik Politikası	</a></li>	
+								<li><a href="#">Güvenlik</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item4">
+							<h4>Hesabım</h4>
+							<ul>
+								<li><a href="#">Hesabım</a></li> 
+								<li><a href="#">İzlediklerim</a></li>	
+								<li><a href="#">Koleksiyonlar</a></li>
+								<li><a href="#">Kullanıcı rehberi</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item5">
+							<h4>Haber Bülteni</h4>
+							<p>Bizden en son haberleri almak için haber bültenimize abone olun .
+							</p>
+							<form action="#">
+								<input type="text" placeholder="Mailinizi giriniz...">
+							</form>
+							<a href="#" class="btn">Şimdi abone ol <i class="ion-ios-arrow-forward"></i></a>
+						</div>
+					</div>
+				</div>
+					<div class="backtotop">
+						<p><a href="#" id="back-to-top"> Yukarı dönüş <i class="ion-ios-arrow-thin-up"></i></a></p>
+					</div>
+				</div>
+			</footer>
+			
+			<script src="js/jquery.js"></script>
+			<script src="js/plugins.js"></script>
+			<script src="js/plugins2.js"></script>
+			<script src="js/custom.js"></script>
+			</body>
+			
+			</html>

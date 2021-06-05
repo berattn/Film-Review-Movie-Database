@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<title>Ünlü Listesi</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="profile" href="#">
+
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone-no">
+
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div id="preloader">
+		<img class="logo" src="images/logo1.png" alt="" width="119" height="58">
+		<div id="status">
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<div class="login-wrapper" id="login-content">
+		<div class="login-content">
+			<a href="#" class="close">x</a>
+			<h3>Giriş</h3>
+			<form method="post" action="#">
+				<div class="row">
+					 <label for="username">
+						Kullanıcı adı:
+						<input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+					</label>
+				</div>
+			   
+				<div class="row">
+					<label for="password">
+						Şifre:
+						<input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				<div class="row">
+					<div class="remember">
+						<div>
+							<input type="checkbox" name="remember" value="Remember me"><span>Beni hatırla</span>
+						</div>
+						<a href="#">Şifrenizi mi unuttunuz?</a>
+					</div>
+				</div>
+			   <div class="row">
+					<button type="submit">Giriş</button>
+			   </div>
+			</form>
+			<div class="row">
+				<p>Sosyal hesaptan bağlan</p>
+				<div class="social-btn-2">
+					<a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+					<a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="login-wrapper"  id="signup-content">
+		<div class="login-content">
+			<a href="#" class="close">x</a>
+			<h3>Kaydol</h3>
+			<form method="post" action="#">
+				<div class="row">
+					 <label for="username-2">
+						Kullanıcı adı:
+						<input type="text" name="username" id="username-2" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+					</label>
+				</div>
+			   
+				<div class="row">
+					<label for="email-2">
+					   E-mail:
+						<input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				 <div class="row">
+					<label for="password-2">
+						Şifre:
+						<input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				 <div class="row">
+					<label for="repassword-2">
+						Şifrenizi bir daha giriniz:
+						<input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+			   <div class="row">
+				 <button type="submit">Kaydol</button>
+			   </div>
+			</form>
+		</div>
+	</div>
+	<header class="ht-header">
+		<div class="container">
+			<nav class="navbar navbar-default navbar-custom">
+					<div class="navbar-header logo">
+						<div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<div id="nav-icon1">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<a href="index-2.html"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
+					</div>
+					<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav flex-child-menu menu-left">
+							<li class="hidden">
+								<a href="#page-top"></a>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown">
+								Ana sayfa <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="index-2.html">Ana sayfa1</a></li>
+									<li><a href="homev2.html">Ana sayfa2</a></li>
+									<li><a href="homev3.html">Ana sayfa3</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								filmler<i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Film Skalası<i class="ion-ios-arrow-forward"></i></a>
+										<ul class="dropdown-menu level2">
+											<li><a href="moviegrid.html">Film Skalası</a></li>
+											<li><a href="moviegridfw.html">Film Skalası full ekran</a></li>
+										</ul>
+									</li>			
+									<li><a href="movielist.html">Film listesi</a></li>
+									<li><a href="moviesingle.html">Tek filmler</a></li>
+									<li class="it-last"><a href="seriessingle.html">Sıralı Filmler</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Ünlüler <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="celebritygrid01.html">Tek liste ünlüler 1</a></li>
+									<li><a href="celebritygrid02.html">Tek liste ünlüler 2 </a></li>
+									<li><a href="celebritylist.html">Tam liste ünlüler</a></li>
+									<li class="it-last"><a href="celebritysingle.html">Ünlü Profili</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Haberler <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="bloglist.html">blog Listesi</a></li>
+									<li><a href="bloggrid.html">blog Grid</a></li>
+									<li class="it-last"><a href="blogdetail.html">blog Detayı</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Topluluk <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="userfavoritegrid.html">Kulkanıcı popülerleri</a></li>
+									<li><a href="userfavoritelist.html">Kullanıcı Favorileri</a></li>
+									<li><a href="userprofile.html">Kullanıcı Profili</a></li>
+									<li class="it-last"><a href="userrate.html">Kullanıcı puanlaması </a></li>
+								</ul>
+							</li>
+				
+							</li>                
+							<li><a href="#">Yardım</a></li>
+							<li class="loginLink"><a href="#">Giriş</a></li>
+							<li class="btn signupLink"><a href="#">Kaydol</a></li>
+						</ul>
+					</div>
+			</nav>
+			
+			<div class="top-search">
+				<select>
+					<option value="united">Tv Showları</option>
+					<option value="saab">Diğer</option>
+				</select>
+				<input type="text" placeholder="Aradğınız filmi veya ünlüyü giriniz">
+			</div>
+		</div>
+	</header>
+
+<div class="hero common-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="hero-ct">
+					<h1>Ünlü listesi -6'lı arama </h1>
+					<ul class="breadcumb">
+						<li class="active"><a href="#">Ana Sayfa</a></li>
+						<li> <span class="ion-ios-arrow-right"></span> 6'lı liste </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-single">
+	<div class="container">
+		<div class="row ipad-width2">
+			<div class="col-md-9 col-sm-12 col-xs-12">
+				<div class="topbar-filter">
+					<p class="pad-change">Toplam <span>1,608 ünlüden</span>bulundu</p>
+					<label>Sort by:</label>
+					<select>
+						<option value="popularity">Popülerliğe Göre Azalan</option>
+						<option value="popularity">Popülerliğe Göre Artan</option>
+						<option value="rating">Aldıkları Puana Göre Azalan</option>
+						<option value="rating">Aldıkları Puana Göre Artan</option>
+						<option value="date">Eklenme Tarihine Göre Artan </option>
+						<option value="date">Eklenme Tarihine Göre Azalan</option>
+					</select>
+					<a href="celebritylist.html" class="list"><i class="ion-ios-list-outline "></i></a>
+					<a  href="celebritygrid02.html" class="grid"><i class="ion-grid active"></i></a>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="ceb-item-style-2">
+							<img src="images/uploads/ceb21.jpg" width="75" height="75" alt="">
+							<div class="ceb-infor">
+								<h2><a href="celebritysingle.html">Leonardo DiCaprio</a></h2>
+								<span>Aktör, İngiltere</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="ceb-item-style-2">
+							<img src="images/uploads/ceb22.jpg"  width="75" height="75" alt="">
+							<div class="ceb-infor">
+								<h2><a href="celebritysingle.html">Meryl Streep</a></h2>
+								<span>Aktris, İran</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="ceb-item-style-2">
+							<img src="images/uploads/ceb23.jpg"  width="75" height="75" alt="">
+							<div class="ceb-infor">
+								<h2><a href="celebritysingle.html">Tom Hanks</a></h2>
+								<span>Yönetmen, İsveç</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="ceb-item-style-2">
+							<img src="images/uploads/ceb24.jpg"  width="75" height="75" alt="">
+							<div class="ceb-infor">
+								<h2><a href="celebritysingle.html">Robert De Niro</a></h2>
+								<span> Aktör, İngiltere</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="ceb-item-style-2">
+							<img src="images/uploads/ceb25.jpg" width="75" height="75" alt="">
+							<div class="ceb-infor">
+								<h2><a href="celebritysingle.html">Kamal Haasan</a></h2>
+								<span>Aktris, Amerika</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="ceb-item-style-2">
+							<img src="images/uploads/ceb26.jpg"  width="75" height="75" alt="">
+							<div class="ceb-infor">
+								<h2><a href="celebritysingle.html">Anthony Hopkins</a></h2>
+								<span>Aktris, Fransa</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="topbar-filter">
+					<label>Sayfa Başı:</label>
+					<select>
+						<option value="range">36 inceleme</option>
+						<option value="saab">18 inceleme </option>
+					</select>
+					
+					<div class="pagination2">
+						<span>sayfa 6 da 1:</span>
+						<a class="active" href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#"><i class="ion-arrow-right-b"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-12 col-sm-12">
+				<div class="sidebar">
+					<div class="searh-form">
+					<h4 class="sb-title">Ünlü Ara</h4>
+					<form class="form-style-1 celebrity-form" action="#">
+						<div class="row">
+							<div class="col-md-12 form-it">
+								<label>Ünlü İsmi</label>
+								<input type="text" placeholder="İsmi Giriniz">
+							</div>
+							<div class="col-md-12 form-it">
+								<label>Ünlü Harf</label>
+								<select>
+								  <option value="range">A</option>
+								  <option value="range">B</option>
+								  <option value="range">C</option>
+								  <option value="range">Ç</option>
+								  <option value="range">D</option>
+								  <option value="range">E</option>
+								  <option value="range">F</option>
+								  <option value="range">G</option>
+								  <option value="range">Ğ</option>
+								  <option value="range">I</option>
+								  <option value="range">İ</option>
+								  <option value="range">J</option>
+								  <option value="range">K</option>
+								  <option value="range">L</option>
+								  <option value="range">M</option>
+								  <option value="range">N</option>
+								  <option value="range">O</option>
+								  <option value="range">Ö</option>
+								  <option value="range">P</option>
+								  <option value="range">R</option>
+								  <option value="range">S</option>
+								  <option value="range">T</option>
+								  <option value="range">U</option>
+								  <option value="range">Ü</option>
+								  <option value="range">V</option>
+								  <option value="range">Y</option>
+								  <option value="saab">Z</option>
+								</select>
+							</div>
+							<div class="col-md-12 form-it">
+								<label>Kategori</label>
+								<select>
+								  <option value="range">Aktris</option>
+								  <option value="range">Aktör</option>
+								  <option value="saab">Diğer</option>
+								</select>
+							</div>
+							<div class="col-md-12 form-it">
+								<label>Doğum tarihi</label>
+								<div class="row">
+									<div class="col-md-6">
+										<select>
+										  <option value="range">1900</option>
+										  <option value="number">Other</option>
+										</select>
+									</div>
+									<div class="col-md-6">
+										<select>
+										  <option value="range">2020</option>
+										  <option value="number">others</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 ">
+								<input class="submit" type="submit" value="Ara">
+							</div>
+						</div>
+					</form>
+				</div>
+					<div class="ads">
+						<img src="images/uploads/ads1.png" alt="">
+					</div>
+					<div class="celebrities">
+						<h4 class="sb-title">Popüler Ünlüler</h4>
+						<div class="celeb-item">
+							<a href="#"><img src="images/uploads/ava1.jpg" width=100 height=”100″  alt=""></a>
+							<div class="celeb-author">
+								<h6><a href="#">Samuel l. Jackson </a></h6>
+								<span>Aktör</span>
+							</div>
+						</div>
+						<div class="celeb-item">
+							<a href="#"><img src="images/uploads/ava2.jpg" width=100 height=”100″ alt=""></a>
+							<div class="celeb-author">
+								<h6><a href="#">Gillian Anderson</a></h6>
+								<span>Aktris</span>
+							</div>
+						</div>
+						<div class="celeb-item">
+							<a href="#"><img src="images/uploads/ava3.jpg" width=100 height=”100″ alt=""></a>
+							<div class="celeb-author">
+								<h6><a href="#">Robert Downey JR.</a></h6>
+								<span>Aktör</span>
+							</div>
+						</div>
+						<div class="celeb-item">
+							<a href="#"><img src="images/uploads/ava4.jpg" width=100 height=”100″ alt=""></a>
+							<div class="celeb-author">
+								<h6><a href="#">Justin Timberlake</a></h6>
+								<span>Aktör</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="ht-footer">
+	<div class="container">
+		<div class="flex-parent-ft">
+			<div class="flex-child-ft item1">
+				 <a href="index-2.html"><img class="logo" src="images/logo1.png" width="100" height="100" alt=""></a>
+				 <p>Merkez Mah. Halkalı Yolu Atlas Sk. No:3 34212 
+					<br>
+					34212 Mahmutbey / İstanbul</p>
+				<p>Bizi arayın : <a href="#">(+90212) 698 45 47 </a></p>
+			</div>
+			<div class="flex-child-ft item2">
+				<h4>Resources</h4>
+				<ul>
+					<li><a href="#">Hakkımızda</a></li> 
+					<li><a href="#">BeratMovies</a></li>
+					<li><a href="#">Bize Ulaşın</a></li>
+					<li><a href="#">Forumlar</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Yardım Merkezi</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item3">
+				<h4>Legal</h4>
+				<ul>
+					<li><a href="#">Kullanım şartları</a></li> 
+					<li><a href="#">Gizlilik Politikası	</a></li>	
+					<li><a href="#">Güvenlik</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item4">
+				<h4>Account</h4>
+				<ul>
+					<li><a href="#">Hesabım</a></li> 
+					<li><a href="#">İzlediklerim</a></li>	
+					<li><a href="#">Koleksiyonlar</a></li>
+					<li><a href="#">Kullanıcı rehberi</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item5">
+				<h4>Haber Bülteni</h4>
+				<p>Bizden en son haberleri almak için haber bültenimize abone olun .
+				</p>
+				<form action="#">
+					<input type="text" placeholder="Enter your email...">
+				</form>
+				<a href="#" class="btn">Şimdi abone ol <i class="ion-ios-arrow-forward"></i></a>
+			</div>
+		</div>
+	</div>
+		</div>
+		<div class="backtotop">
+			<p><a href="#" id="back-to-top"> Yukarı dönüş <i class="ion-ios-arrow-thin-up"></i></a></p>
+		</div>
+	</div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/plugins2.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>

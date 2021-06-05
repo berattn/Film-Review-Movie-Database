@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+<head>
+	<title>Blog Liste Form</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="profile" href="#">
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone-no">
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div id="preloader">
+		<img class="logo" src="images/logo1.png" alt="" width="119" height="58">
+		<div id="status">
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	
+	<div class="login-wrapper" id="login-content">
+		<div class="login-content">
+			<a href="#" class="close">x</a>
+			<h3>Giriş</h3>
+			<form method="post" action="#">
+				<div class="row">
+					 <label for="username">
+						Kullanıcı adı:
+						<input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+					</label>
+				</div>
+			   
+				<div class="row">
+					<label for="password">
+						Şifre:
+						<input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				<div class="row">
+					<div class="remember">
+						<div>
+							<input type="checkbox" name="remember" value="Remember me"><span>Beni hatırla</span>
+						</div>
+						<a href="#">Şifrenizi mi unuttunuz?</a>
+					</div>
+				</div>
+			   <div class="row">
+					<button type="submit">Giriş</button>
+			   </div>
+			</form>
+			<div class="row">
+				<p>Sosyal hesaptan bağlan</p>
+				<div class="social-btn-2">
+					<a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+					<a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="login-wrapper"  id="signup-content">
+		<div class="login-content">
+			<a href="#" class="close">x</a>
+			<h3>Kaydol</h3>
+			<form method="post" action="#">
+				<div class="row">
+					 <label for="username-2">
+						Kullanıcı adı:
+						<input type="text" name="username" id="username-2" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+					</label>
+				</div>
+			   
+				<div class="row">
+					<label for="email-2">
+					   E-mail:
+						<input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				 <div class="row">
+					<label for="password-2">
+						Şifre:
+						<input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+				 <div class="row">
+					<label for="repassword-2">
+						Şifrenizi bir daha giriniz:
+						<input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					</label>
+				</div>
+			   <div class="row">
+				 <button type="submit">Kaydol</button>
+			   </div>
+			</form>
+		</div>
+	</div>
+	<header class="ht-header">
+		<div class="container">
+			<nav class="navbar navbar-default navbar-custom">
+					<div class="navbar-header logo">
+						<div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<div id="nav-icon1">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<a href="index-2.html"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
+					</div>
+					<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav flex-child-menu menu-left">
+							<li class="hidden">
+								<a href="#page-top"></a>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown">
+								Ana sayfa <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="index-2.html">Ana sayfa1</a></li>
+									<li><a href="homev2.html">Ana sayfa2</a></li>
+									<li><a href="homev3.html">Ana sayfa3</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								filmler<i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Film Skalası<i class="ion-ios-arrow-forward"></i></a>
+										<ul class="dropdown-menu level2">
+											<li><a href="moviegrid.html">Film Skalası</a></li>
+											<li><a href="moviegridfw.html">Film Skalası full ekran</a></li>
+										</ul>
+									</li>			
+									<li><a href="movielist.html">Film listesi</a></li>
+									<li><a href="moviesingle.html">Tek filmler</a></li>
+									<li class="it-last"><a href="seriessingle.html">Sıralı Filmler</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Ünlüler <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="celebritygrid01.html">Tek liste ünlüler 1</a></li>
+									<li><a href="celebritygrid02.html">Tek liste ünlüler 2 </a></li>
+									<li><a href="celebritylist.html">Tam liste ünlüler</a></li>
+									<li class="it-last"><a href="celebritysingle.html">Ünlü Profili</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Haberler <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="bloglist.html">blog Listesi</a></li>
+									<li><a href="bloggrid.html">blog Grid</a></li>
+									<li class="it-last"><a href="blogdetail.html">blog Detayı</a></li>
+								</ul>
+							</li>
+							<li class="dropdown first">
+								<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+								Topluluk <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu level1">
+									<li><a href="userfavoritegrid.html">Kulkanıcı popülerleri</a></li>
+									<li><a href="userfavoritelist.html">Kullanıcı Favorileri</a></li>
+									<li><a href="userprofile.html">Kullanıcı Profili</a></li>
+									<li class="it-last"><a href="userrate.html">Kullanıcı puanlaması </a></li>
+								</ul>
+							</li>
+				
+							</li>                
+							<li><a href="#">Yardım</a></li>
+							<li class="loginLink"><a href="#">Giriş</a></li>
+							<li class="btn signupLink"><a href="#">Kaydol</a></li>
+						</ul>
+					</div>
+			</nav>
+			
+			<div class="top-search">
+				<select>
+					<option value="united">Tv Showları</option>
+					<option value="saab">Diğer</option>
+				</select>
+				<input type="text" placeholder="Aradğınız filmi, diziyi, veya ünlüyü giriniz">
+			</div>
+		</div>
+	</header>
+
+<div class="hero common-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="hero-ct">
+					<h1>Dedikodular</h1>
+					<ul class="breadcumb">
+						<li class="active"><a href="#">Ana sayfa</a></li>
+						<li> <span class="ion-ios-arrow-right"></span> Dedikodular</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-single">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 col-sm-12 col-xs-12">
+				<div class="blog-item-style-1 blog-item-style-3">
+            		<img src="images/uploads/bloglist-it1.jpg" alt="">
+            		<div class="blog-it-infor">
+            			<h3><a href="blogdetail.html">Godzilla 3'ün başrol oyuncusu olması için the rock ile görüşülüyormuş</a></h3>
+            			<span class="time">10 Mar 2021</span>
+            			<p>Sevilen oyuncunun aksiyon filmlerine yakıştığı......</p>
+            		</div>
+            	</div>
+            	<div class="blog-item-style-1 blog-item-style-3">
+            		<img src="images/uploads/bloglist-it2.jpg" alt="">
+            		<div class="blog-it-infor">
+            			<h3><a href="blogdetail.html">Andrew Lincoln The Walking Dead'den ayrıldığına pişman olduğunu belirtti</a></h3>
+            			<span class="time">10 Mar 2021</span>
+            			<p>The Walking Dead dizisinden aniden çıkışıyla herkesi şaşırtan Andrew Lincoln (Rick Grimes), Georgia'yı unutmadı. Lincoln, 9. sezonun başlarında TWD serisinden ayrılmaya karar vermişti. Rick Grimes diziden ayrılırken,...</p>
+            		</div>
+            	</div>
+				<div class="blog-item-style-1 blog-item-style-3">
+            		<img src="images/uploads/bloglist-it3.jpg" alt="">
+            		<div class="blog-it-infor">
+            			<h3><a href="blogdetail.html"></a>Disney Aslan Kral iki planlarına başlamış</h3>
+            			<span class="time">10 Mar 2021</span>
+            			<p>Disney, hayalleri gerçeğe dönüştürme işinde, son Disney Yatırımcılar Günü hayranlarına o kadar çok hediye veriyor ki, geçen yılki dramayı şimdiden telafi ediyor. Ortaya çıkan içeriğin çoğu Disney + yayın hizmetini hedef alırken, stüdyo, The Lion King 2'nin Moonlight yönetmeni Barry Jenkins ile resmi olarak </p>
+            		</div>
+            	</div>
+            	<div class="blog-item-style-1 blog-item-style-3">
+            		<img src="images/uploads/bloglist-it4.jpg" alt="">
+            		<div class="blog-it-infor">
+            			<h3><a href="blogdetail.html">The Smurfs yönetmenlerinden umutlandıran haber.</a></h3>
+            			<span class="time">10 Mar 2021</span>
+            			<p>Covid dolayısıyla beklenen fakat gelemeyen 4. filmden sonra projeler iptal mi sorusuna cevap veren yönetmenler...</p>
+            		</div>
+            	</div>
+            	<div class="blog-item-style-1 blog-item-style-3">
+            		<img src="images/uploads/bloglist-it5.jpg" alt="">
+            		<div class="blog-it-infor">
+            			<h3><a href="blogdetail.html">The Woodcarver filmine reboot iddiası</a></h3>
+            			<span class="time">10 Mar 2021</span>
+            			<p> Başrollerini Nicole Oliver ve Anthony Harrison'ın paylaştığı 2012 yapımlı filmi bir daha yapma projesi olduüunu duyuran Netflix film için akıllarında...</p>
+            		</div>
+            	</div>
+            	<div class="blog-item-style-1 blog-item-style-3">
+            		<img src="images/uploads/bloglist-it6.jpg" alt="">
+            		<div class="blog-it-infor">
+            			<h3><a href="blogdetail.html">Felicity Jones, Natalie Portman'ın yerine genç Ruth Bader Ginsburg'u oynayacak						</a></h3>
+            			<span class="time">10 Mar 2021</span>
+            			<p>"Aftermath" filmi ile güzel bir çıkış yapan aktristen gelen haberlere göre...</p>
+            		</div>
+            	</div>
+            	<ul class="pagination">
+            		<li class="icon-prev"><a href="#"><i class="ion-ios-arrow-left"></i></a></li>
+            		<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">...</a></li>
+					<li><a href="#">21</a></li>
+					<li><a href="#">22</a></li>
+					<li class="icon-next"><a href="#"><i class="ion-ios-arrow-right"></i></a></li>
+            	</ul>
+			</div>
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="sidebar">
+					<div class="sb-search sb-it">
+						<h4 class="sb-title">Arama</h4>
+						<input type="text" placeholder="Anahtar kelimeleri giriniz">
+					</div>
+					<div class="sb-cate sb-it">
+						<h4 class="sb-title">Categories</h4>
+						<ul>
+							<li><a href="#">Ödüller (50)</a></li>
+							<li><a href="#">Box office (38)</a></li>
+							<li><a href="#">Film yorumları (72)</a></li>
+							<li><a href="#">Haberler (45)</a></li>
+							<li><a href="#">Global (06)</a></li>
+						</ul>
+					</div>
+					<div class="sb-recentpost sb-it">
+						<h4 class="sb-title">En popüler</h4>
+						<div class="recent-item">
+							<span>01</span><h6><a href="#">Kore Gişesi: Güzel ve Çirkin Dördüncü Oldu</a></h6>
+						</div>
+						<div class="recent-item">
+							<span>02</span><h6><a href="#">Homeland finali şok edici bir ölümü getiriyor </a></h6>
+						</div>
+						<div class="recent-item">
+							<span>03</span><h6><a href="#">Fate of the Furious'un eleştirmen yorumları</a></h6>
+						</div>
+					</div>
+					<div class="sb-tags sb-it">
+						<h4 class="sb-title">Anahtar Kelimeler</h4>
+						<ul class="tag-items">
+							<li><a href="#">Batman</a></li>
+							<li><a href="#">film</a></li>
+							<li><a href="#">homeland</a></li>
+							<li><a href="#">Fast & Furious</a></li>
+							<li><a href="#">Dead Walker</a></li>
+							<li><a href="#">King</a></li>
+							<li><a href="#">Beauty</a></li>
+						</ul>
+					</div>
+					<div class="ads">
+						<img src="images/uploads/ads1.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="ht-footer">
+	<div class="container">
+		<div class="flex-parent-ft">
+			<div class="flex-child-ft item1">
+				 <a href="index-2.html"><img class="logo" src="images/logo1.png" width="100" height="100" alt=""></a>
+				 <p>Merkez Mah. Halkalı Yolu Atlas Sk. No:3 34212 
+					<br>
+					34212 Mahmutbey / İstanbul</p>
+				<p>Bizi arayın : <a href="#">(+90212) 698 45 47 </a></p>
+			</div>
+			<div class="flex-child-ft item2">
+				<h4>Kaynaklar</h4>
+				<ul>
+					<li><a href="#">Hakkımızda</a></li> 
+					<li><a href="#">BeratMovies</a></li>
+					<li><a href="#">Bize Ulaşın</a></li>
+					<li><a href="#">Forumlar</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Yardım Merkezi</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item3">
+				<h4>Yasalar</h4>
+				<ul>
+					<li><a href="#">Kullanım şartları</a></li> 
+					<li><a href="#">Gizlilik Politikası	</a></li>	
+					<li><a href="#">Güvenlik</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item4">
+				<h4>Hesabım</h4>
+				<ul>
+					<li><a href="#">Hesabım</a></li> 
+					<li><a href="#">İzlediklerim</a></li>	
+					<li><a href="#">Koleksiyonlar</a></li>
+					<li><a href="#">Kullanıcı rehberi</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item5">
+				<h4>Haber Bülteni</h4>
+				<p> Bizden en son haberleri almak için haber bültenimize abone olun .
+				</p>
+				<form action="#">
+					<input type="text" placeholder="Enter your email...">
+				</form>
+				<a href="#" class="btn">Şimdi abone ol <i class="ion-ios-arrow-forward"></i></a>
+			</div>
+		</div>
+	</div>
+		<div class="backtotop">
+			<p><a href="#" id="back-to-top"> Yukarı dönüş <i class="ion-ios-arrow-thin-up"></i></a></p>
+		</div>
+	</div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/plugins2.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>

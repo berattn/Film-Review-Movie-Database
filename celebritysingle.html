@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+<head>
+	<title>Tekli ünlü</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="profile" href="#">
+
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone-no">
+
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div id="preloader">
+    <img class="logo" src="images/logo1.png" alt="" width="119" height="58">
+    <div id="status">
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<div class="login-wrapper" id="login-content">
+    <div class="login-content">
+        <a href="#" class="close">x</a>
+        <h3>Giriş</h3>
+        <form method="post" action="#">
+        	<div class="row">
+        		 <label for="username">
+                    Kullanıcı adı:
+                    <input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                </label>
+        	</div>
+           
+            <div class="row">
+            	<label for="password">
+                    Şifre:
+                    <input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+            <div class="row">
+            	<div class="remember">
+					<div>
+						<input type="checkbox" name="remember" value="Remember me"><span>Beni Hatırla</span>
+					</div>
+            		<a href="#">Şifrenizi mi unuttunuz ?</a>
+            	</div>
+            </div>
+           <div class="row">
+           	 <button type="submit">Giriş</button>
+           </div>
+        </form>
+        <div class="row">
+        	<p>>Sosyal hesaptan bağlan</p>
+            <div class="social-btn-2">
+            	<a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+            	<a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="login-wrapper"  id="signup-content">
+    <div class="login-content">
+        <a href="#" class="close">x</a>
+        <h3>Kaydol</h3>
+        <form method="post" action="#">
+            <div class="row">
+                 <label for="username-2">
+                    Kullanıcı adı:
+                    <input type="text" name="username" id="username-2" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                </label>
+            </div>
+           
+            <div class="row">
+                <label for="email-2">
+                    E-mail:
+                    <input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+             <div class="row">
+                <label for="password-2">
+                    Şifre:
+                    <input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+             <div class="row">
+                <label for="repassword-2">
+					Şifrenizi bir daha giriniz:
+                    <input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+           <div class="row">
+             <button type="submit">Kaydol</button>
+           </div>
+        </form>
+    </div>
+</div>
+
+<header class="ht-header">
+	<div class="container">
+		<nav class="navbar navbar-default navbar-custom">
+				<div class="navbar-header logo">
+				    <div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					    <span class="sr-only">Toggle navigation</span>
+					    <div id="nav-icon1">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+				    </div>
+				    <a href="index-2.html"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
+			    </div>
+				<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav flex-child-menu menu-left">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown">
+							Ana sayfa <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="index-2.html">Ana sayfa1</a></li>
+								<li><a href="homev2.html">Ana sayfa2</a></li>
+								<li><a href="homev3.html">Ana sayfa3</a></li>
+							</ul>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							filmler<i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Film Skalası<i class="ion-ios-arrow-forward"></i></a>
+									<ul class="dropdown-menu level2">
+										<li><a href="moviegrid.html">Film Skalası</a></li>
+										<li><a href="moviegridfw.html">Film Skalası full ekran</a></li>
+									</ul>
+								</li>			
+								<li><a href="movielist.html">Film listesi</a></li>
+								<li><a href="moviesingle.html">Tek filmler</a></li>
+								<li class="it-last"><a href="seriessingle.html">Sıralı Filmler</a></li>
+							</ul>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Ünlüler <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="celebritygrid01.html">Tek liste ünlüler 1</a></li>
+								<li><a href="celebritygrid02.html">Tek liste ünlüler 2 </a></li>
+								<li><a href="celebritylist.html">Tam liste ünlüler</a></li>
+								<li class="it-last"><a href="celebritysingle.html">Ünlü Profili</a></li>
+							</ul>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Haberler <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="bloglist.html">blog Listesi</a></li>
+								<li><a href="bloggrid.html">blog Grid</a></li>
+								<li class="it-last"><a href="blogdetail.html">blog Detayı</a></li>
+							</ul>
+						</li>
+						<li class="dropdown first">
+							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Topluluk <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="userfavoritegrid.html">Kulkanıcı popülerleri</a></li>
+								<li><a href="userfavoritelist.html">Kullanıcı Favorileri</a></li>
+								<li><a href="userprofile.html">Kullanıcı Profili</a></li>
+								<li class="it-last"><a href="userrate.html">Kullanıcı puanlaması </a></li>
+							</ul>
+						</li>
+			
+						</li>                
+						<li><a href="#">Yardım</a></li>
+						<li class="loginLink"><a href="#">Giriş</a></li>
+						<li class="btn signupLink"><a href="#">Kaydol</a></li>
+					</ul>
+				</div>
+	    </nav>
+	    
+	    <div class="top-search">
+	    	<select>
+				<option value="united">TV showları</option>
+				<option value="saab">Diğerleri</option>
+			</select>
+			<input type="text" placeholder="Aradğınız filmi veya ünlüyü giriniz">
+	    </div>
+	</div>
+</header>
+
+<div class="hero hero3">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="page-single movie-single cebleb-single">
+	<div class="container">
+		<div class="row ipad-width">
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="mv-ceb">
+					<img src="images/uploads/cebsingle2.jpg" height="300" width="300" alt="">
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<div class="movie-single-ct">
+					<h1 class="bd-hd">Hugh Jackman</h1>
+					<p class="ceb-single">Aktör  |  Yapımcı</p>
+					<div class="social-link cebsingle-socail">
+						<a href="facebook.com/HughJackman"><i class="ion-social-facebook"></i></a>
+						<a href="https://twitter.com/realhughjackman"><i class="ion-social-twitter"></i></a>
+					</div>
+					<div class="movie-tabs">
+						<div class="tabs">
+							<ul class="tab-links tabs-mv">
+								<li class="active"><a href="#overviewceb">Genel Bakış
+								</a></li>
+								<li><a href="#biography"> Biyografi</a></li>
+								<li><a href="#mediaceb"> Medya</a></li> 
+								<li><a href="#filmography">Filmografi</a></li>                        
+							</ul>
+						    <div class="tab-content">
+						        <div id="overviewceb" class="tab active">
+						            <div class="row">
+						            	<div class="col-md-8 col-sm-12 col-xs-12">
+						            		<p>
+												Jackman, Grace McNeil (Greenwood) ve Christopher John Jackman'ın oğlu olarak  Sidney, Yeni Güney Galler'de doğdu.
+												Muhasebeci bir babanın beş çocuğun en küçüğü. Ebeveynleri doğumundan kısa bir süre önce İngiltere'den, Avustralya'ya taşındı.
+												Ayrıca Yunan (büyük bir büyükbabadan) ve İskoç (bir büyükanneden) soyuna sahiptir.</p>
+
+											<p>Hugh Michael Jackman, Avustralyalı bir aktör, şarkıcı, çok enstrümantalist, dansçı ve yapımcıdır. Jackman, büyük filmlerdeki rolleriyle, özellikle de süper kahraman, dönem ve romantik karakterler olarak uluslararası tanınırlık kazandı.											</p>
+											<p class="time"><a href="#">See full bio <i class="ion-ios-arrow-right"></i></a></p>
+						            		<div class="title-hd-sm">
+												<h4>Medya</h4>
+												<a href="#" class="time">Bütün 5 video ve 245 Fotoğraf <i class="ion-ios-arrow-right"></i></a>
+											</div>
+											<div class="mvsingle-item ov-item">
+												<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image11.jpg" ><img src="images/uploads/image1.jpg" alt=""></a>
+												<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image21.jpg" ><img src="images/uploads/image2.jpg" alt=""></a>
+												<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image31.jpg" ><img src="images/uploads/image3.jpg" alt=""></a>
+												<div class="vd-it">
+													<img class="vd-img" src="images/uploads/image4.jpg" alt="">
+													<a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
+												</div>
+											</div>
+											<div class="title-hd-sm">
+												<h4>Filmografi</h4>
+												<a href="#" class="time">Bütün Filmografisi<i class="ion-ios-arrow-right"></i></a>
+											</div>
+											<div class="mvcast-item">											
+												<div class="cast-it">
+													<div class="cast-left cebleb-film">
+														<img src="images/uploads/film1.jpg" width="200" height="200" alt="">
+														<div>
+															<a href="#">X-Men: Apocalypse </a>
+															<p class="time">Logan</p>
+														</div>
+														
+													</div>
+													<p>...  2016</p>
+												</div>
+												<div class="cast-it">
+													<div class="cast-left cebleb-film">
+														<img src="images/uploads/film2.jpg" width="200" height="200" alt="">
+														<div>
+															<a href="#">Eddie the Eagle </a>
+															<p class="time">Bronson Peary</p>
+														</div>
+													</div>
+													<p>...  2015</p>
+												</div>
+												<div class="cast-it">
+													<div class="cast-left cebleb-film">
+														<img src="images/uploads/film3.jpg" width="200" height="200" alt="">
+														<div>
+															<a href="#">Me and Earl and the Dying Girl </a>
+															<p class="time">Hugh Jackman</p>
+														</div>
+													</div>
+													<p>...  2015</p>
+												</div>
+												<div class="cast-it">
+													<div class="cast-left cebleb-film">
+														<img src="images/uploads/film4.jpg" width="200" height="200" alt="">
+														<div>
+															<a href="#">Night at the Museum 3 </a>
+															<p class="time">Blackbeard</p>
+														</div>
+													</div>
+													<p>...  2014</p>
+												</div>
+												<div class="cast-it">
+													<div class="cast-left cebleb-film">
+														<img src="images/uploads/film5.jpg" width="200" height="200" alt="">
+														<div>
+															<a href="#">X-Men: Days of Future Past </a>
+															<p class="time">Wolverine</p>
+														</div>
+													</div>
+													<p>...  2012</p>
+												</div>
+												<div class="cast-it">
+													<div class="cast-left cebleb-film">
+														<img src="images/uploads/film6.jpg" width="200" height="200" alt="">
+														<div>
+															<a href="#">The Wolverine </a>
+															<p class="time">Logan</p>
+														</div>
+													</div>
+													<p>...  2011</p>
+												</div>
+												<div class="cast-it">
+													<div class="cast-left cebleb-film">
+														<img src="images/uploads/film7.jpg" width="200" height="200" alt="">
+														<div>
+															<a href="#">Rise of the Guardians </a>
+															<p class="time">Bunny</p>
+														</div>
+													</div>
+													<p>...  2011</p>
+												</div>
+												<div class="cast-it">
+													<div class="cast-left cebleb-film">
+														<img src="images/uploads/film8.jpg" width="200" height="200" alt="">
+														<div>
+															<a href="#">The Prestige </a>
+															<p class="time">Robert Angier</p>
+														</div>
+													</div>
+													<p>...  2010</p>
+												</div>
+											</div>
+						            	</div>
+						            	<div class="col-md-4 col-xs-12 col-sm-12">
+						            		<div class="sb-it">
+						            			<h6>Tam isim:  </h6>
+						            			<p><a href="#">Hugh Jackman</a></p>
+						            		</div>
+						            		<div class="sb-it">
+						            			<h6>Doğum Tarihi: </h6>
+						            			<p> 24 Haziran 1982</p>
+						            		</div>
+						            		<div class="sb-it">
+						            			<h6>Ülke:  </h6>
+						            			<p>Avustralya</p>
+						            		</div>
+						            		<div class="sb-it">
+						            			<h6>Boy:</h6>
+						            			<p>186 cm </p>
+						            		</div>
+						            		<div class="sb-it">
+						            			<h6>Anahtar Kelimeler:</h6>
+						            			<p class="tags">
+						            				<span class="time"><a href="#">jackman</a></span>
+													<span class="time"><a href="#">wolverine</a></span>
+													<span class="time"><a href="#">logan</a></span>
+													<span class="time"><a href="#">BeratMovies</a></span>
+													<span class="time"><a href="#">final battle</a></span>
+						            			</p>
+						            		</div>
+						            		<div class="ads">
+												<img src="images/uploads/ads1.png" alt="">
+											</div>
+						            	</div>
+						            </div>
+						        </div>
+						        <div id="biography" class="tab">
+						           <div class="row">
+						            	<div class="rv-hd">
+											<div>
+												<h3>Biografisi</h3>
+						       	 				<h2>Hugh Jackman</h2>
+											</div>							            						
+						            	</div>
+						            	<p>Hugh Michael Jackman, Avustralyalı bir aktör, şarkıcı, çok enstrümantalist, dansçı ve yapımcıdır. Jackman, büyük filmlerdeki rolleriyle, özellikle süper kahraman, dönem ve romantik karakterler olarak uluslararası tanınırlık kazandı. En çok X-Men film serisindeki Wolverine rolüyle ve romantik komedi fantastik Kate & Leopold (2001), aksiyon-korku filmi Van Helsing'deki (2004) başrolleriyle tanınır , The Prestige and The Fountain (2006), epik tarihsel romantik dram Avustralya (2008), Les Misérables'ın film versiyonu (2012) ve gerilim Prisoners (2013). Sefiller'deki çalışması ona En İyi Erkek Oyuncu dalında ilk Akademi Ödülü adaylığını ve 2013'te En İyi Erkek Oyuncu - Müzikal veya Komedi Filmi dalında ilk Altın Küre Ödülü'nü kazandırdı. Jackman, Broadway tiyatrosunda The Boy from Oz'daki rolüyle Tony Ödülü kazandı. . Tony Ödülleri'nin dört kez ev sahipliği yaptığı bu gösterilerden biri için Emmy Ödülü kazandı. Jackman ayrıca 22 Şubat 2009'da 81. Akademi Ödüllerine ev sahipliği yaptı.										</p>
+
+										<p>JJackman, Grace McNeil (Greenwood) ve Christopher John Jackman'ın oğlu olarak  Sidney, Yeni Güney Galler'de doğdu.Muhasebeci bir babanın beş çocuğun en küçüğü. Ebeveynleri doğumundan kısa bir süre önce İngiltere'den, Avustralya'ya taşındı.</p>
+										<p>Jackman, Sydney Teknoloji Üniversitesi'nden bir gazetecilik dalında iletişim derecesine sahiptir. Mezun olduktan sonra Batı Avustralya Sahne Sanatları Akademisi'nde dramaya devam etti ve hemen ardından gelecekteki eşi Deborra-Lee Furness ile birlikte ABC-TV hapishane draması Correlli'de (1995) başrol teklif edildi. Aktör ve varyete bestecisi olarak birkaç TV konuk rolü izledi. Başarılı bir şarkıcı olan Jackman, Avustralya yapımı "Beauty and the Beast" de Gaston rolünü oynadı. Avustralya yapımı "Sunset Boulevard" da Joe Gillis rolünü oynadı. 1998'de Royal National Theatre yapımı Trevor Nunn'ın Oklahoma yapımında Curly rolünü üstlendi. Jackman iki uzun metrajlı film yaptı, bunlardan ikincisi Erskineville Kings (1999) ona 1999'da En İyi Erkek Oyuncu dalında Avustralya Film Enstitüsü adaylığı kazandırdı. Yakın zamanda Bryan Singer'ın yönettiği çizgi romanda Logan / Wolverine rolünü kazandı X-Men (2000) filmi. Jackman boş zamanlarında piyano, golf ve gitar çalıyor ve rüzgar sörfü yapmayı seviyor.										</p>
+
+										</p>
+						            </div>
+						        </div>
+						        <div id="mediaceb" class="tab">
+						        	<div class="row">
+						        		<div class="rv-hd">
+						            		<div>
+						            			<h3>Hugh jackman</h3>
+					       	 					<h2>Medya</h2>
+						            		</div>
+						            	</div>
+						            	<div class="title-hd-sm">
+											<h4>Videolar <span>(8)</span></h4>
+										</div>
+										<div class="mvsingle-item media-item">
+											<div class="vd-item">
+												<div class="vd-it">
+													<img class="vd-img" src="images/uploads/vd-item1.jpg" alt="">
+													<a class="fancybox-media hvr-grow"  href="https://www.youtube.com/watch?v=dpe1p2eZN-E"><img src="images/uploads/play-vd.png" alt=""></a>
+												</div>
+												<div class="vd-infor">
+													<h6> <a href="#">Ryan Reynolds Hugh Jackman'la Röportaj Yapıyor</a></h6>
+													<p class="time"> 3: 07</p>
+												</div>
+											</div>
+											<div class="vd-item">
+												<div class="vd-it">
+													<img class="vd-img" src="images/uploads/vd-item2.jpg" alt="">
+													<a class="fancybox-media hvr-grow" href="https://www.youtube.com/watch?v=FP5ePL61JZA"><img src="images/uploads/play-vd.png" alt=""></a>
+												</div>
+												<div class="vd-infor">
+													<h6> <a href="#">Hugh Jackman röportajda wolverine rolünü avengersta oynamak istediğini söylüyor</a></h6>
+													<p class="time"> 5: 30</p>
+												</div>
+											</div>
+											<div class="vd-item">
+												<div class="vd-it">
+													<img class="vd-img" src="images/uploads/vd-item3.jpg" alt="">
+													<a class="fancybox-media hvr-grow" href="https://www.youtube.com/watch?v=3jlAu1wbcik"><img src="images/uploads/play-vd.png" alt=""></a>
+												</div>
+												<div class="vd-infor">
+													<h6> <a href="#">Logan Wolverine: Hugh Jackman'a Elveda </a></h6>
+													<p class="time"> 3:27</p>
+												</div>
+										
+												</div>
+											</div>
+											<div class="vd-item">
+												<div class="vd-it">
+													<img class="vd-img" src="images/uploads/vd-item4.jpg" width="200" height="200" alt="">
+													<a class="fancybox-media hvr-grow" href="https://www.youtube.com/watch?v=RH3OxVFvTeg"><img src="images/uploads/play-vd.png" alt=""></a>
+												</div>
+												<div class="vd-infor">
+													<h6> <a href="#"> Logan official trailer #2</a></h6>
+													<p class="time"> 2:14</p>
+												</div>
+											</div>
+										</div>
+										<div class="title-hd-sm">
+											<h4>Fotoğraflar <span> (21)</span></h4>
+										</div>
+										<div class="mvsingle-item">
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image11.jpg" ><img src="images/uploads/image1.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery"  href="images/uploads/image21.jpg" ><img src="images/uploads/image2.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image31.jpg" ><img src="images/uploads/image3.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image41.jpg" ><img src="images/uploads/image4.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image51.jpg" ><img src="images/uploads/image5.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image61.jpg" ><img src="images/uploads/image6.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image71.jpg" ><img src="images/uploads/image7.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image81.jpg" ><img src="images/uploads/image8.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image91.jpg" ><img src="images/uploads/image9.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image101.jpg" ><img src="images/uploads/image10.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image111.jpg" ><img src="images/uploads/image1-1.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image121.jpg" ><img src="images/uploads/image12.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image131.jpg" ><img src="images/uploads/image13.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image141.jpg" ><img src="images/uploads/image14.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image151.jpg" ><img src="images/uploads/image15.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image161.jpg" ><img src="images/uploads/image16.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image171.jpg" ><img src="images/uploads/image17.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image181.jpg" ><img src="images/uploads/image18.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image191.jpg" ><img src="images/uploads/image19.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image201.jpg" ><img src="images/uploads/image20.jpg" alt=""></a>
+											<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image211.jpg" ><img src="images/uploads/image2-1.jpg" alt=""></a>
+										</div>
+						        	</div>
+					       	 	</div>
+					       	 	<div id="filmography" class="tab">
+						        	<div class="row">
+						            	<div class="rv-hd">
+						            		<div>
+						            			<h3>Hugh Jackman </h3>
+					       	 					<h2>Filmografisi</h2>
+						            		</div>
+										
+						            	</div>
+						            	<div class="topbar-filter">
+											<p>Toplam <span>14 film</span> bulundu</p>
+											<label>Filtreleme yöntemi:</label>
+											<select>
+												<option value="popularity">Popülerliğe Göre Azalan</option>
+												<option value="popularity">Popülerliğe Göre Artan</option>
+												<option value="rating">Aldıkları Puana Göre Azalan</option>
+												<option value="rating">Aldıkları Puana Göre Artan</option>
+												<option value="date">Eklenme Tarihine Göre Artan </option>
+												<option value="date">Eklenme Tarihine Göre Azalan</option>
+											</select>
+										</div>
+										<div class="mvcast-item">											
+											<div class="cast-it">
+												<div class="cast-left cebleb-film">
+													<img src="images/uploads/film1.jpg" width="25" height="25" alt="">
+													<div>
+														<a href="#">X-Men: Apocalypse </a>
+														<p class="time">Logan</p>
+													</div>
+													
+												</div>
+												<p>...  2016</p>
+											</div>
+											<div class="cast-it">
+												<div class="cast-left cebleb-film">
+													<img src="images/uploads/film2.jpg"  width="25" height="25" alt="">
+													<div>
+														<a href="#">Eddie the Eagle </a>
+														<p class="time">Bronson Peary</p>
+													</div>
+												</div>
+												<p>...  2015</p>
+											</div>
+											<div class="cast-it">
+												<div class="cast-left cebleb-film">
+													<img src="images/uploads/film3.jpg"  width="25" height="25" alt="">
+													<div>
+														<a href="#">Me and Earl and the Dying Girl </a>
+														<p class="time">Hugh Jackman</p>
+													</div>
+												</div>
+												<p>...  2015</p>
+											</div>
+											<div class="cast-it">
+												<div class="cast-left cebleb-film">
+													<img src="images/uploads/film4.jpg"  width="25" height="25" alt="">
+													<div>
+														<a href="#">Night at the Museum 3 </a>
+														<p class="time">Blackbeard</p>
+													</div>
+												</div>
+												<p>...  2014</p>
+											</div>
+											<div class="cast-it">
+												<div class="cast-left cebleb-film">
+													<img src="images/uploads/film5.jpg"  width="25" height="25" alt="">
+													<div>
+														<a href="#">X-Men: Days of Future Past </a>
+														<p class="time">Wolverine</p>
+													</div>
+												</div>
+												<p>...  2012</p>
+											</div>
+											<div class="cast-it">
+												<div class="cast-left cebleb-film">
+													<img src="images/uploads/film6.jpg"  width="25" height="25" alt="">
+													<div>
+														<a href="#">The Wolverine </a>
+														<p class="time">Logan</p>
+													</div>
+												</div>
+												<p>...  2011</p>
+											</div>
+											<div class="cast-it">
+												<div class="cast-left cebleb-film">
+													<img src="images/uploads/film7.jpg" width="25" height="25" alt="">
+													<div>
+														<a href="#">Rise of the Guardians </a>
+														<p class="time">Bunny</p>
+													</div>
+												</div>
+												<p>...  2011</p>
+											</div>
+											<div class="cast-it">
+												<div class="cast-left cebleb-film">
+													<img src="images/uploads/film8.jpg"  width="25" height="25"  alt="">
+													<div>
+														<a href="#">The Prestige </a>
+														<p class="time">Robert Angier</p>
+													</div>
+												</div>
+												<p>...  2010</p>
+											</div>
+										</div>
+						            </div>
+					       	 	</div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+<footer class="ht-footer">
+	<div class="container">
+		<div class="flex-parent-ft">
+			<div class="flex-child-ft item1">
+				 <a href="index-2.html"><img class="logo" src="images/logo1.png" width="100" height="100" alt=""></a>
+				 <p>Merkez Mah. Halkalı Yolu Atlas Sk. No:3 34212 
+					<br>
+					34212 Mahmutbey / İstanbul</p>
+				<p>Bizi arayın : <a href="#">(+90212) 698 45 47 </a></p>
+			</div>
+			<div class="flex-child-ft item2">
+				<h4>Resources</h4>
+				<ul>
+					<li><a href="#">Hakkımızda</a></li> 
+					<li><a href="#">BeratMovies</a></li>
+					<li><a href="#">Bize Ulaşın</a></li>
+					<li><a href="#">Forumlar</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Yardım Merkezi</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item3">
+				<h4>Legal</h4>
+				<ul>
+					<li><a href="#">Kullanım şartları</a></li> 
+					<li><a href="#">Gizlilik Politikası	</a></li>	
+					<li><a href="#">Güvenlik</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item4">
+				<h4>Account</h4>
+				<ul>
+					<li><a href="#">Hesabım</a></li> 
+					<li><a href="#">İzlediklerim</a></li>	
+					<li><a href="#">Koleksiyonlar</a></li>
+					<li><a href="#">Kullanıcı rehberi</a></li>
+				</ul>
+			</div>
+			<div class="flex-child-ft item5">
+				<h4>Haber Bülteni</h4>
+				<p>Bizden en son haberleri almak için haber bültenimize abone olun .
+				</p>
+				<form action="#">
+					<input type="text" placeholder="Mailinizi giriniz">
+				</form>
+				<a href="#" class="btn">Şimdi abone ol <i class="ion-ios-arrow-forward"></i></a>
+			</div>
+		</div>
+	</div>
+		<div class="backtotop">
+			<p><a href="#" id="back-to-top"> Yukarı dönüş <i class="ion-ios-arrow-thin-up"></i></a></p>
+		</div>
+	</div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/plugins2.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>

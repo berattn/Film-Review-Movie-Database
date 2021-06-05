@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+<head>
+	<title>4'lü film listesi</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="profile" href="#">
+
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone-no">
+
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<body>
+		<div id="preloader">
+			<img class="logo" src="images/logo1.png" alt="" width="119" height="58">
+			<div id="status">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="login-wrapper" id="login-content">
+			<div class="login-content">
+				<a href="#" class="close">x</a>
+				<h3>Giriş</h3>
+				<form method="post" action="#">
+					<div class="row">
+						 <label for="username">
+							Kullanıcı adı:
+							<input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+						</label>
+					</div>
+				   
+					<div class="row">
+						<label for="password">
+							Şifre:
+							<input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+						</label>
+					</div>
+					<div class="row">
+						<div class="remember">
+							<div>
+								<input type="checkbox" name="remember" value="Remember me"><span>Beni hatırla</span>
+							</div>
+							<a href="#">Şifrenizi mi unuttunuz?</a>
+						</div>
+					</div>
+				   <div class="row">
+						<button type="submit">Giriş</button>
+				   </div>
+				</form>
+				<div class="row">
+					<p>Sosyal hesaptan bağlan</p>
+					<div class="social-btn-2">
+						<a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+						<a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="login-wrapper"  id="signup-content">
+			<div class="login-content">
+				<a href="#" class="close">x</a>
+				<h3>Kaydol</h3>
+				<form method="post" action="#">
+					<div class="row">
+						 <label for="username-2">
+							Kullanıcı adı:
+							<input type="text" name="username" id="username-2" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+						</label>
+					</div>
+				   
+					<div class="row">
+						<label for="email-2">
+							E-mail:
+							<input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+						</label>
+					</div>
+					 <div class="row">
+						<label for="password-2">
+							Şifre:
+							<input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+						</label>
+					</div>
+					 <div class="row">
+						<label for="repassword-2">
+							Şifrenizi bir daha giriniz:
+							<input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+						</label>
+					</div>
+				   <div class="row">
+					 <button type="submit">Kaydol</button>
+				   </div>
+				</form>
+			</div>
+		</div>
+		<header class="ht-header full-width-hd">
+				<div class="row">
+					<nav id="mainNav" class="navbar navbar-default navbar-custom">
+						<div class="navbar-header logo">
+							<div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<div id="nav-icon1">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+							<a href="index-2.html"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
+						</div>
+						<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav flex-child-menu menu-left">
+								<li class="hidden">
+									<a href="#page-top"></a>
+								</li>
+								<li class="dropdown first">
+									<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+									Home <i class="fa fa-angle-down" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu level1">
+										<li><a href="index-2.html">Ana sayfa1</a></li>
+										<li><a href="homev2.html">Ana sayfa2</a></li>
+										<li><a href="homev3.html">Ana sayfa3</a></li>
+									</ul>
+								</li>	
+								<li class="dropdown first">
+									<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+									Filmler<i class="fa fa-angle-down" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu level1">
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Film Skalası<i class="ion-ios-arrow-forward"></i></a>
+											<ul class="dropdown-menu level2">
+												<li><a href="moviegrid.html">Film Skalası</a></li>
+												<li><a href="moviegridfw.html">Film Skalası full ekran</a></li>
+											</ul>
+										</li>			
+										<li><a href="movielist.html">Film listesi</a></li>
+										<li><a href="moviesingle.html">Tek filmler</a></li>
+										<li class="it-last"><a href="seriessingle.html">Sıralı Filmler</a></li>
+									</ul>
+								</li>
+								<li class="dropdown first">
+									<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+									Ünlüler <i class="fa fa-angle-down" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu level1">
+										<li><a href="celebritygrid01.html">Tek liste ünlüler 1</a></li>
+										<li><a href="celebritygrid02.html">Tek liste ünlüler 2 </a></li>
+										<li><a href="celebritylist.html">Tam liste ünlüler</a></li>
+										<li class="it-last"><a href="celebritysingle.html">Ünlü Profili</a></li>
+									</ul>
+								</li>
+								<li class="dropdown first">
+									<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+									Haberler <i class="fa fa-angle-down" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu level1">
+										<li><a href="bloglist.html">blog List</a></li>
+										<li><a href="bloggrid.html">blog Grid</a></li>
+										<li class="it-last"><a href="blogdetail.html">blog Detail</a></li>
+									</ul>
+								</li>
+								<li class="dropdown first">
+									<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+									Topluluk <i class="fa fa-angle-down" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu level1">
+										<li><a href="bloglist.html">blog Listesi</a></li>
+										<li><a href="bloggrid.html">blog Grid</a></li>
+										<li class="it-last"><a href="blogdetail.html">blog Detayı</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul class="nav navbar-nav flex-child-menu menu-right">
+								<li class="dropdown first">
+									<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+									Diğer <i class="fa fa-angle-down" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu level1">
+										<li><a href="landing.html">GEzinti</a></li>
+										<li class="it-last"><a href="comingsoon.html">Yakında...</a></li>
+									</ul>
+								</li>                
+								<li><a href="#">Yardım</a></li>
+								<li class="loginLink"><a href="#">Giriş Yap</a></li>
+								<li class="btn signupLink"><a href="#">Kaydol</a></li>
+							</ul>
+						</div>
+				</nav>
+				</div>
+			
+		</header>
+
+<div class="hero common-hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="hero-ct">
+					<h1> Film Skalası-Liste</h1>
+					<ul class="breadcumb">
+						<li class="active"><a href="#">Ana Sayfa</a></li>
+						<li> <span class="ion-ios-arrow-right"></span> Filmler Listeleniyor</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-single">
+	<div class="container">
+		<div class="row ipad-width">
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<div class="topbar-filter">
+					<p>Toplam <span>1608 Film</span> bulundu.</p>
+					<label>Sıralama Ölçütü:</label>
+					<select>
+						<option value="popularity">Popülerliğe Göre Azalan</option>
+						<option value="popularity">Popülerliğe Göre Artan</option>
+						<option value="rating">Aldıkları Puana Göre Azalan</option>
+						<option value="rating">Aldıkları Puana Göre Artan</option>
+						<option value="date">Eklenme Tarihine Göre Artan </option>
+						<option value="date">Eklenme Tarihine Göre Azalan</option>
+					</select>
+					<a href="movielist.html" class="list"><i class="ion-ios-list-outline "></i></a>
+					<a  href="moviegrid.html" class="grid"><i class="ion-grid active"></i></a>
+				</div>
+				<div class="flex-wrap-movielist">
+						<div class="movie-item-style-2 movie-item-style-1">
+							<img src="images/uploads/mv1.jpg" alt="">
+							<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+							<div class="mv-item-infor">
+								<h6><a href="#">oblivion</a></h6>
+								<p class="rate"><i class="ion-android-star"></i><span>7.0</span> /10</p>
+							</div>
+						</div>					
+						<div class="movie-item-style-2 movie-item-style-1">
+							<img src="images/uploads/mv2.jpg" alt="">
+							<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+							<div class="mv-item-infor">
+								<h6><a href="#">into the wild</a></h6>
+								<p class="rate"><i class="ion-android-star"></i><span>8.1</span> /10</p>
+							</div>
+						</div>
+					
+					
+						<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item3.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">Die hard</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>5.3</span> /10</p>
+	            			</div>
+	            		</div>
+					
+					
+						<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item4.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">The walk</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>7.3</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+							<img src="images/uploads/mv3.jpg" alt="">
+							<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+							<div class="mv-item-infor">
+								<h6><a href="#">Blade Runner 2049  </a></h6>
+								<p class="rate"><i class="ion-android-star"></i><span>8.0</span> /10</p>
+							</div>
+						</div>
+						<div class="movie-item-style-2 movie-item-style-1">
+							<img src="images/uploads/mv4.jpg" alt="">
+							<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+							<div class="mv-item-infor">
+								<h6><a href="#">Mulholland Drive</a></h6>
+								<p class="rate"><i class="ion-android-star"></i><span>7.9</span> /10</p>
+							</div>
+						</div>
+						<div class="movie-item-style-2 movie-item-style-1">
+							<img src="images/uploads/mv5.jpg" alt="">
+							<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+							<div class="mv-item-infor">
+								<h6><a href="#">Skyfall</a></h6>
+								<p class="rate"><i class="ion-android-star"></i><span>7.7</span> /10</p>
+							</div>
+						</div>
+						<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item1.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">Interstellar</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>8.6</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item2.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">The revenant</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>8.0</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-it10.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">harry potter and the deathly holllows pt:2</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>8.1</span> /10</p>
+	            			</div>
+	            		</div>
+						<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-it11.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">guardians galaxy</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>8.0</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-it12.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">the godfather</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>9.2</span> /10</p>
+	            			</div>
+	            		</div>
+						<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item6.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">blue velvet</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>7.7</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item7.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">gravity</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>7.7</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item8.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">Southpaw</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>7.4</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-it9.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">Jurassic park</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>8.1</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item9.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">the forest</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>7.2</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item10.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">spectre</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>6.8</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item11.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">strager things</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>8.7</span> /10</p>
+	            			</div>
+	            		</div>
+	            		<div class="movie-item-style-2 movie-item-style-1">
+	            			<img src="images/uploads/mv-item12.jpg" alt="">
+	            			<div class="hvr-inner">
+	            				<a  href="moviesingle.html"> Daha fazla <i class="ion-android-arrow-dropright"></i> </a>
+	            			</div>
+	            			<div class="mv-item-infor">
+	            				<h6><a href="#">la la land</a></h6>
+	            				<p class="rate"><i class="ion-android-star"></i><span>8.0</span> /10</p>
+	            			</div>
+	            		</div>
+				</div>		
+				<div class="topbar-filter">
+					<label>Sayfa başına film:</label>
+					<select>
+						<option value="range">20 Film</option>
+						<option value="saab">10 film</option>
+					</select>
+					
+					<div class="pagination2">
+						<span>Sayfa 2 de 1:</span>
+						<a class="active" href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">...</a>
+						<a href="#">78</a>
+						<a href="#">79</a>
+						<a href="#"><i class="ion-arrow-right-b"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="sidebar">
+					<div class="searh-form">
+						<h4 class="sb-title">Film ara</h4>
+						<form class="form-style-1" action="#">
+							<div class="row">
+								<div class="col-md-12 form-it">
+									<label>Filmin ismi</label>
+									<input type="text" placeholder="Anahtar Kelimeleri Girin">
+								</div>
+								<div class="col-md-12 form-it">
+									<label>Türler ve Alttürler</label>
+									<div class="group-ip">
+										<select
+											name="skills" multiple="" class="ui fluid dropdown">
+											<option value="">Aksiyon</option>
+											<option value="Action1">Komedi</option>
+					                        <option value="Action2">Korku </option>
+					                        <option value="Action3">Macera </option>
+					                        <option value="Action4">Gerilim </option>
+					                        <option value="Action5">Sanat </option>
+										</select>
+									</div>	
+								</div>
+								<div class="col-md-12 form-it">
+									<label>Rating Range</label>
+									<select>
+									  <option value="range">-- 1 --</option>
+									  <option value="range">-- 2 --</option>
+									  <option value="range">-- 3 --</option>
+									  <option value="range">-- 4 --</option>
+									  <option value="range">-- 5 --</option>
+									  <option value="range">-- 6 --</option>
+									  <option value="range">-- 7 --</option>
+									  <option value="range">-- 8 --</option>
+									  <option value="range">-- 9 --</option>
+									  <option value="saab">-- 10 --</option>
+									</select>
+								</div>
+								<div class="col-md-12 form-it">
+									<label>Çıkış Tarihi</label>
+									<div class="row">
+										<div class="col-md-6">
+											<select>
+											  <option value="range">1930</option>
+											  <option value="range">1931</option>
+											  <option value="range">1932</option>
+											  <option value="range">1933</option>
+											  <option value="range">1934</option>
+											  <option value="range">1935</option>
+											  <option value="range">1936</option>
+											  <option value="range">1937</option>
+											  <option value="range">1938</option>
+											  <option value="range">1939</option>
+											  <option value="range">1940</option>
+											  <option value="range">1941</option>
+											  <option value="range">1942</option>
+											  <option value="range">1943</option>
+											  <option value="range">1944</option>
+											  <option value="range">1945</option>
+											  <option value="range">1946</option>
+											  <option value="range">1947</option>
+											  <option value="range">1948</option>
+											  <option value="range">1949</option>
+											  <option value="range">1950</option>
+											  <option value="range">1951</option>
+											  <option value="range">1952</option>
+											  <option value="range">1953</option>
+											  <option value="range">1954</option>
+											  <option value="range">1955</option>
+											  <option value="range">1956</option>
+											  <option value="range">1957</option>
+											  <option value="range">1958</option>
+											  <option value="range">1959</option>
+											  <option value="range">1960</option>
+											  <option value="range">1961</option>
+											  <option value="range">1962</option>
+											  <option value="range">1963</option>
+											  <option value="range">1964</option>
+											  <option value="range">1965</option>
+											  <option value="range">1966</option>
+											  <option value="range">1967</option>
+											  <option value="range">1968</option>
+											  <option value="range">1969</option>
+											  <option value="range">1970</option>
+											  <option value="range">1971</option>
+											  <option value="range">1972</option>
+											  <option value="range">1973</option>
+											  <option value="range">1974</option>
+											  <option value="range">1975</option>
+											  <option value="range">1976</option>
+											  <option value="range">1977</option>
+											  <option value="range">1978</option>
+											  <option value="range">1979</option>
+											  <option value="range">1980</option>
+											  <option value="range">1981</option>
+											  <option value="range">1982</option>
+											  <option value="range">1983</option>
+											  <option value="range">1984</option>
+											  <option value="range">1985</option>
+											  <option value="range">1986</option>
+											  <option value="range">1987</option>
+											  <option value="range">1988</option>
+											  <option value="range">1989</option>
+											  <option value="range">1990</option>
+											  <option value="range">1991</option>
+											  <option value="range">1992</option>
+											  <option value="range">1993</option>
+											  <option value="range">1994</option>
+											  <option value="range">1995</option>
+											  <option value="range">1996</option>
+											  <option value="range">1997</option>
+											  <option value="range">1998</option>
+											  <option value="range">1999</option>
+											  <option value="range">2000</option>
+											  <option value="range">2001</option>
+											  <option value="range">2002</option>
+											  <option value="range">2003</option>
+											  <option value="range">2004</option>
+											  <option value="range">2005</option>
+											  <option value="range">2006</option>
+											  <option value="range">2006</option>
+											  <option value="range">2007</option>
+											  <option value="range">2008</option>
+											  <option value="range">2009</option>
+											  <option value="range">2010</option>
+											  <option value="range">2011</option>
+											  <option value="range">2012</option>
+											  <option value="range">2013</option>
+											  <option value="range">2014</option>
+											  <option value="range">2015</option>
+											  <option value="range">2016</option>
+											  <option value="range">2017</option>
+											  <option value="range">2018</option>
+											  <option value="range">2019</option>
+											  <option value="range">2020</option>
+											  <option value="number">2021</option>
+											</select>
+										</div>
+										<div class="col-md-6">
+											<select>
+												<option value="range">1930</option>
+												<option value="range">1931</option>
+												<option value="range">1932</option>
+												<option value="range">1933</option>
+												<option value="range">1934</option>
+												<option value="range">1935</option>
+												<option value="range">1936</option>
+												<option value="range">1937</option>
+												<option value="range">1938</option>
+												<option value="range">1939</option>
+												<option value="range">1940</option>
+												<option value="range">1941</option>
+												<option value="range">1942</option>
+												<option value="range">1943</option>
+												<option value="range">1944</option>
+												<option value="range">1945</option>
+												<option value="range">1946</option>
+												<option value="range">1947</option>
+												<option value="range">1948</option>
+												<option value="range">1949</option>
+												<option value="range">1950</option>
+												<option value="range">1951</option>
+												<option value="range">1952</option>
+												<option value="range">1953</option>
+												<option value="range">1954</option>
+												<option value="range">1955</option>
+												<option value="range">1956</option>
+												<option value="range">1957</option>
+												<option value="range">1958</option>
+												<option value="range">1959</option>
+												<option value="range">1960</option>
+												<option value="range">1961</option>
+												<option value="range">1962</option>
+												<option value="range">1963</option>
+												<option value="range">1964</option>
+												<option value="range">1965</option>
+												<option value="range">1966</option>
+												<option value="range">1967</option>
+												<option value="range">1968</option>
+												<option value="range">1969</option>
+												<option value="range">1970</option>
+												<option value="range">1971</option>
+												<option value="range">1972</option>
+												<option value="range">1973</option>
+												<option value="range">1974</option>
+												<option value="range">1975</option>
+												<option value="range">1976</option>
+												<option value="range">1977</option>
+												<option value="range">1978</option>
+												<option value="range">1979</option>
+												<option value="range">1980</option>
+												<option value="range">1981</option>
+												<option value="range">1982</option>
+												<option value="range">1983</option>
+												<option value="range">1984</option>
+												<option value="range">1985</option>
+												<option value="range">1986</option>
+												<option value="range">1987</option>
+												<option value="range">1988</option>
+												<option value="range">1989</option>
+												<option value="range">1990</option>
+												<option value="range">1991</option>
+												<option value="range">1992</option>
+												<option value="range">1993</option>
+												<option value="range">1994</option>
+												<option value="range">1995</option>
+												<option value="range">1996</option>
+												<option value="range">1997</option>
+												<option value="range">1998</option>
+												<option value="range">1999</option>
+												<option value="range">2000</option>
+												<option value="range">2001</option>
+												<option value="range">2002</option>
+												<option value="range">2003</option>
+												<option value="range">2004</option>
+												<option value="range">2005</option>
+												<option value="range">2006</option>
+												<option value="range">2006</option>
+												<option value="range">2007</option>
+												<option value="range">2008</option>
+												<option value="range">2009</option>
+												<option value="range">2010</option>
+												<option value="range">2011</option>
+												<option value="range">2012</option>
+												<option value="range">2013</option>
+												<option value="range">2014</option>
+												<option value="range">2015</option>
+												<option value="range">2016</option>
+												<option value="range">2017</option>
+												<option value="range">2018</option>
+												<option value="range">2019</option>
+												<option value="range">2020</option>
+												<option value="number">2021</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 ">
+									<input class="submit" type="submit" value="Ara">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="ads">
+						<img src="images/uploads/ads1.png" alt="">
+					</div>
+
+					
+							</div>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="ht-footer full-width-ft">
+	<div class="row">
+		<div class="flex-parent-ft">
+			<footer class="ht-footer">
+				<div class="container">
+					<div class="flex-parent-ft">
+						<div class="flex-child-ft item1">
+							 <a href="index-2.html"><img class="logo" src="images/logo1.png" width="100" height="100" alt=""></a>
+							 <p>Merkez Mah. Halkalı Yolu Atlas Sk. No:3 34212 
+								<br>
+								34212 Mahmutbey / İstanbul</p>
+							<p>Bizi arayın : <a href="#">(+90212) 698 45 47 </a></p>
+						</div>
+						<div class="flex-child-ft item2">
+							<h4>Kaynak</h4>
+							<ul>
+								<li><a href="#">Hakkımızda</a></li> 
+								<li><a href="#">BeratMovies</a></li>
+								<li><a href="#">Bize Ulaşın</a></li>
+								<li><a href="#">Forumlar</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Yardım Merkezi</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item3">
+							<h4>Yasalar</h4>
+							<ul>
+								<li><a href="#">Kullanım şartları</a></li> 
+								<li><a href="#">Gizlilik Politikası	</a></li>	
+								<li><a href="#">Güvenlik</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item4">
+							<h4>Hesabım</h4>
+							<ul>
+								<li><a href="#">Hesabım</a></li> 
+								<li><a href="#">İzlediklerim</a></li>	
+								<li><a href="#">Koleksiyonlar</a></li>
+								<li><a href="#">Kullanıcı rehberi</a></li>
+							</ul>
+						</div>
+						<div class="flex-child-ft item5">
+							<h4>Haber Bülteni</h4>
+							<p>Bizden en son haberleri almak için haber bültenimize abone olun .
+							</p>
+							<form action="#">
+								<input type="text" placeholder="Enter your email...">
+							</form>
+							<a href="#" class="btn">Şimdi abone ol <i class="ion-ios-arrow-forward"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="ft-copyright">
+					<div class="ft-left">
+						<p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+					</div>
+					<div class="backtotop">
+						<p><a href="#" id="back-to-top"> Yukarı dönüş <i class="ion-ios-arrow-thin-up"></i></a></p>
+					</div>
+				</div>
+			</footer>
+			
+			<script src="js/jquery.js"></script>
+			<script src="js/plugins.js"></script>
+			<script src="js/plugins2.js"></script>
+			<script src="js/custom.js"></script>
+			</body>
+			
+			</html>
